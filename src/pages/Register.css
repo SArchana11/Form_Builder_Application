@@ -1,0 +1,65 @@
+.register-page {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f7b42c 0%, #fc575e 100%);
+}
+
+.register-box {
+  width: 400px;
+  padding: 2.5em 2em;
+  background: #ffffff;
+  border-radius: 19px;
+  box-shadow: 0 8px 40px 0 rgba(60, 60, 120, 0.16);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #fc575e;
+  transition: box-shadow 0.2s;
+}
+
+.register-box h2 {
+  margin-bottom: 1.5em;
+  color: #fc575e;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.input {
+  padding: 0.9em;
+  border-radius: 6px;
+  border: 1px solid #bdbdbd;
+  font-size: 1.1em;
+  transition: border 0.2s;
+  width: 100%;
+}
+
+.input:focus {
+  border: 2px solid #f7b42c;
+  outline: none;
+}
+
+.register-btn {
+  background: linear-gradient(90deg, #fc575e 0%, #f7b42c 100%);
+  color: #fff;
+  border: none;
+  padding: 0.9em 0;
+  font-size: 1.15em;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: 100%;
+}
+
+.register-btn:hover {
+  background: linear-gradient(90deg, #f7b42c 0%, #fc575e 100%);
+}

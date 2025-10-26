@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Pacifico&family=Roboto:wght@400;500&display=swap');
+
+.home-page {
+  min-height: 100vh;
+  background: linear-gradient(-120deg, #f7b42c 0%, #fc575e 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 82px; /* footer space */
+}
+
+.home-hero {
+  margin-top: 10vh;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 3em 2em 2em 2em;
+  border-radius: 19px;
+  box-shadow: 0 8px 36px 0 rgba(60, 60, 120, 0.19);
+  text-align: center;
+  max-width: 630px;
+}
+
+.home-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 2.7em;
+  letter-spacing: 0.5px;
+  line-height: 1.08em;
+  margin-bottom: 0.3em;
+}
+.main-gradient {
+  background: linear-gradient(90deg, #fc575e 0%, #f7b42c 95%);
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+}
+.highlight {
+  color: #fc575e;
+  font-size: 1.2em;
+  font-family: 'Pacifico', cursive;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.24em;
+  color: #884d26;
+  margin: 0.6em auto 1.6em auto;
+}
+.fun-font {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.13em;
+  color: #f7b42c;
+}
+
+.home-btn {
+  background: linear-gradient(90deg, #fc575e 0%, #f7b42c 100%);
+  color: #fff;
+  border: none;
+  padding: 0.95em 2.4em;
+  border-radius: 9px;
+  font-size: 1.25em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.22s, box-shadow 0.18s;
+  box-shadow: 0 8px 30px #ffb14c38;
+}
+
+.home-btn:hover {
+  background: linear-gradient(90deg, #f7b42c 0%, #fc575e 100%);
+  box-shadow: 0 6px 28px #fc575e23;
+}
+
+/* Features Section */
+.features-row {
+  display: flex;
+  justify-content: center;
+  gap: 2.1em;
+  margin-top: 3.8em;
+  margin-bottom: 3em;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: #fffdfa;
+  border-radius: 14px;
+  padding: 2em 1.5em 1.45em 1.5em;
+  box-shadow: 0 2px 18px #f7b42c11;
+  min-width: 230px;
+  max-width: 245px;
+  text-align: center;
+  transition: box-shadow 0.17s;
+  margin: 0.7em 0;
+}
+
+.feature-card:hover {
+  box-shadow: 0 8px 32px #fc575e22;
+}
+
+.feature-icon {
+  font-size: 2.2em;
+  margin-bottom: 0.3em;
+  display: block;
+  color: #fc575e;
+}
+
+.feature-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.16em;
+  margin-bottom: 0.6em;
+  color: #fc575e;
+}
+
+.feature-card p {
+  font-family: 'Roboto', sans-serif;
+  color: #864621;
+  font-size: 0.99em;
+  margin: 0;
+}

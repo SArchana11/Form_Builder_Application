@@ -1,0 +1,34 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #f7b42c 0%, #fc575e 100%);
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.form-container, .home {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+button {
+  background: linear-gradient(90deg, #f7b42c 0%, #fc575e 100%);
+  color: white;
+  border: none;
+  padding: 0.7em 1.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
