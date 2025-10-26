@@ -4,7 +4,7 @@ A modern and creative React application to craft custom forms without code, feat
 💡 Getting Started
 Clone the repository
 
-git clone https://github.com/SArchana11/Form-Builder-Application.git
+git clone https://github.com/SArchana11/Form_Builder_Application
 cd Form-Builder-Application
 
 Install dependencies
